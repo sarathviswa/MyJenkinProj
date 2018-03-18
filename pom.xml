@@ -13,19 +13,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
- <distributionManagement>
-    <repository>
-        <id>localSnap</id>
-        <name>RepositoryProxyRel</name>
-        <url>http://localhost:8081/artifactory/webapp/#/artifacts/browse/tree/General/example-repo-local</url>
-    </repository>
-    <snapshotRepository>
-        <id>MylocalSnap</id>
-        <name>RepositoryProxySnap</name>
-        <url>http://localhost:8081/artifactory/webapp/#/artifacts/browse/tree/General/example-repo-local</url>
-    </snapshotRepository>
-</distributionManagement>
-  
+ 
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
