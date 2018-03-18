@@ -13,12 +13,13 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
- <distributionManagement>
+   <distributionManagement>
     <repository>
         <id>releases</id>
-        <url>http://localhost:8081/artifactory/webapp/#/artifacts/browse/tree/EffectivePermission/example-repo-local</url>
+        <url>file://C:/Users/sarat/.m2/repository</url>
     </repository>
     </distributionManagement>
+  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
