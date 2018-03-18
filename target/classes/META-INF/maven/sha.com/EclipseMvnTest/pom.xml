@@ -16,8 +16,13 @@
    <distributionManagement>
     <repository>
         <id>releases</id>
-        <url>file://C:/Users/sarat/.m2/repository</url>
+        <url>http://30faee78.ngrok.io/artifactory/sha</url>
     </repository>
+      <snapshotRepository>
+        <id>snapshots</id>
+        <name>LAPTOP-13A16Q1N-snapshots</name>
+        <url>http://30faee78.ngrok.io/artifactory/sha</url>
+      </snapshotRepository>
     </distributionManagement>
   
   <dependencies>
